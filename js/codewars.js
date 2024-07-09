@@ -183,9 +183,87 @@
 }
 
 {
-    function booleanToString(b){
-        return b.toString()
-      }
-      console.log(booleanToString(true)); // true
-      console.log(booleanToString(false)); // true
+    // function booleanToString(b){
+    //     return b.toString()
+    //   }
+    //   console.log(booleanToString(true)); // true
+    //   console.log(booleanToString(false)); // true
+}
+
+{
+    // function basicOp(operation, value1, value2){
+    //     switch (operation) {
+    //         case `+`:
+    //             return value1 + value2
+    //         case `-`:
+    //             return value1 - value2
+    //         case `*`:
+    //             return value1 * value2
+    //         case `/`:
+    //             return value1 / value2
+    //         default:
+    //             break;
+    //     }
+    // }
+    // console.log(basicOp("+", 4, 7)); // 11
+    // console.log(basicOp("-", 15, 18)); // -3
+    // console.log(basicOp("*", 5, 5)); // 25
+    // console.log(basicOp("/", 49, 7)); // 7
+}
+
+{
+    // function litres(time) {
+    //     return Math.floor(time / 2)
+    // }
+    // console.log( litres(2)); // 1
+    // console.log( litres(1.4)); // 0
+    // console.log( litres(12.3)); // 6
+    // console.log( litres(0.82)); // 0
+    // console.log( litres(11.8)); // 5
+    // console.log( litres(1787)); // 893
+    // console.log( litres(0)); // 0
+}
+
+{
+    // function century(year) {
+    //     return Math.ceil(year / 100)
+    //   }
+    //   console.log( century(1705)); // 18
+    //   console.log( century(1900)); // 19
+    //   console.log( century(1601)); // 17
+    //   console.log( century(2000)); // 20
+    //   console.log( century(89)); // 1
+}
+
+{
+    // function maps(x){
+    //     return x.map(x => x * 2)
+    // }
+    // console.log( maps([1, 2, 3]));  // [2, 4, 6]
+    // console.log( maps([4, 1, 1, 1, 4]));  // [8, 2, 2, 2, 8]
+    // console.log( maps([2, 2, 2, 2, 2, 2]));  // [4, 4, 4, 4, 4, 4]
+}
+
+{
+    // function digitize(n) {
+    //     return n.toString()
+    //             .split("")
+    //             .reverse()
+    //             .map(Number)
+    // }
+    // console.log(digitize(35231)); //[1,3,2,5,3]
+    // console.log(digitize(0)); //[0]
+}
+
+{
+    function sum (numbers) {
+        let sum = 0        
+
+        for (let i = 0; i < numbers.length; i++) {
+            sum += numbers[i]            
+        }
+        return sum
+    }
+    console.log(sum([])); // 0
+    console.log(sum([1, 5.2, 4, 0, -1])); // 9.2
 }
